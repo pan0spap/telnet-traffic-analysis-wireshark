@@ -45,18 +45,12 @@ The experiment was conducted using two virtual machines:
 
 ---
 
-
-## Security Implications
-This project highlights why Telnet is considered obsolete and insecure. The lack of encryption makes it vulnerable to eavesdropping and man-in-the-middle attacks.
-
----
-
-## ✅ Conclusion
+## Conclusion
 The experiment confirms that Telnet should not be used in modern systems. Secure alternatives such as SSH should be implemented to protect sensitive communications.
 
 ---
 
-## 🔒 Disclaimer
+## Disclaimer
 This project was conducted in a controlled virtual lab environment using private IP addresses.  
 No real user data, production systems, or external networks were involved.
 

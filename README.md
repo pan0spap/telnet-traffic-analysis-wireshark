@@ -45,14 +45,6 @@ The experiment was conducted using two virtual machines:
 
 ---
 
-## Screenshots
-*(Add screenshots here)*  
-Examples:
-- Wireshark packet capture  
-- Telnet login session via PuTTY  
-- Packet showing plaintext credentials  
-
----
 
 ## Security Implications
 This project highlights why Telnet is considered obsolete and insecure. The lack of encryption makes it vulnerable to eavesdropping and man-in-the-middle attacks.

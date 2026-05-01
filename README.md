@@ -37,14 +37,6 @@ The experiment was conducted using two virtual machines:
 
 ---
 
-## Key Findings
-- Telnet transmits all data in **plaintext**  
-- User credentials (username and password) were visible in captured packets  
-- No encryption is used, making the protocol highly insecure  
-- Attackers can easily intercept sensitive information using packet sniffing tools  
-
----
-
 ## Conclusion
 The experiment confirms that Telnet should not be used in modern systems. Secure alternatives such as SSH should be implemented to protect sensitive communications.
 

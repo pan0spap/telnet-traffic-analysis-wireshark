@@ -37,6 +37,17 @@ The experiment was conducted using two virtual machines:
 
 ---
 
+## The packet capture shows the establishment of a TCP connection followed by Telnet communication:
+
+- Packet 1: SYN (Client → Server)
+- Packet 2: SYN-ACK (Server → Client)
+- Packet 3: ACK (Client → Server)
+- Subsequent packets: Telnet protocol communication
+
+This demonstrates how a TCP session is established before transmitting application-layer data.
+
+---
+
 ## Conclusion
 The experiment confirms that Telnet should not be used in modern systems. Secure alternatives such as SSH should be implemented to protect sensitive communications.
 

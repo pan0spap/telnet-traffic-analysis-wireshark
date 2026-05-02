@@ -42,7 +42,6 @@ The experiment was conducted using two virtual machines:
 - Packet 1: SYN (Client → Server)
 - Packet 2: SYN-ACK (Server → Client)
 - Packet 3: ACK (Client → Server)
-- Subsequent packets: Telnet protocol communication
 
 This demonstrates how a TCP session is established before transmitting application-layer data.
 
